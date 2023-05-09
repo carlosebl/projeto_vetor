@@ -22,7 +22,7 @@ aside > .container {
     width: 480px;
     height: 100%;
     background-image: url(./images/background.png);
-    background-size: 720px;
+    background-size: 512px;
     text-align: center;
     text-transform: uppercase;
 }
