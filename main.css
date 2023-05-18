@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #6d757d;
+        background-color: #6d757d;
 }
 
 .container {
@@ -24,7 +24,6 @@ body {
     text-align: center;
     position: fixed;
     text-decoration: none;
-    font-size: 24px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -126,7 +125,7 @@ body {
 
     .barra-lateral {
         top: 0;
-        width: 375px;
+        width: 480px;
         height: 204px;
         background-image: url(./images/background.png);
         background-size: 480px;
@@ -148,7 +147,7 @@ body {
     }
 
     .menu a {
-        font-size: 12px;
+        font-size: 16px;
         padding: 8px;
     }
 
@@ -168,11 +167,11 @@ body {
     }
 
     .social img {
-        width: 56px;
+        width: 64px;
     }
 
     .rodape {
-        margin-left: 180px;
+        margin-left: 56px;
         margin-top: 36px;
     }
 
@@ -181,7 +180,7 @@ body {
     }
 
     .conteudo {
-        width: 375px;
+        width: 480px;
         margin-top: 204px;
         max-width: 100%;
         display: block;
