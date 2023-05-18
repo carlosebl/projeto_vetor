@@ -154,7 +154,7 @@ body {
     .contato {
         display: block;
         margin-top: -160px;
-        margin-left: 40px;
+        margin-left: 56px;
     }
 
     .contato a {
@@ -167,12 +167,13 @@ body {
     }
 
     .social img {
-        width: 64px;
+        width: 72px;
     }
 
     .rodape {
-        margin-left: 56px;
+        margin-left: 96px;
         margin-top: 36px;
+        text-align: center;
     }
 
     .rodape p {
@@ -180,6 +181,7 @@ body {
     }
 
     .conteudo {
+        max-width: 480px;
         width: 480px;
         margin-top: 204px;
         max-width: 100%;
@@ -189,18 +191,33 @@ body {
     
     .conteudo a {
         display: block;
+        width: 480px;
         max-width: 90%;
         max-height: 90%;
         margin-bottom: 8px;
         text-align: center;
-        margin-left: -8px;
+        padding: 0;
+        margin-left: 8px;
     }
 
     .conteudo img {
+        width: 480px;
         max-width: 90%;
         max-height: 90%;
         margin-top: 24px;
         margin-bottom: 8px;
         border-radius: 5%;
+        margin-left: 20px;
+    }
+
+    .release h1 {
+        margin-top: 32px;
+        text-align: center;
+        font-size: .75em;
+    }
+    
+    .release p {
+        margin: 18px;
+        font-size: .75em;
     }
 }
