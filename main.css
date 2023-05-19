@@ -118,6 +118,47 @@ body {
     font-size: 16px;
 }
 
+.fale-conosco {
+    display: block;
+    padding-top: 48px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-left: 180px;
+    width: 360px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.fale-conosco h1 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+input:focus, textarea:focus {
+    outline-color: #000;
+}
+
 @media screen and (max-width: 767px) {
     .container {
         width: 100%;
@@ -220,6 +261,13 @@ body {
         margin: 18px;
         font-size: .75em;
     }
+
+    form input,
+    form textarea,
+    form button {
+        max-width: 360px;
+        margin-left: 8px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -273,7 +321,7 @@ body {
     }
 
     .conteudo img {
-        width: 100%%;
+        width: 100%;
         max-width: 90%;
         max-height: 90%;
         margin-top: 24px;
@@ -331,5 +379,11 @@ body {
         margin: 18px;
         font-size: 16px;
     }
-    
+
+    form input,
+    form textarea,
+    form button {
+        max-width: 360px;
+        margin-left: 80px;
+    }
 }
