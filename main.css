@@ -96,4 +96,46 @@ body {
     #barra-lateral {
         display: none;
     }
+
+    #principal {
+        margin-left: .5em;
+        width: 95%;
+    }
+
+    #rodape {
+        margin-left: .5em;
+    }
+
+    #rodape-fixo {
+        margin-left: .5em;
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #cabecalho {
+        width: 102%;
+    }
+    
+    #cabecalho img {
+        max-width: 240px;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    #principal {
+        margin-left: 2.5em;
+        width: 100%;
+    }
+
+    #rodape {
+        margin-left: 2.5em;
+    }
+
+    #rodape-fixo {
+        margin-left: 2.5em;
+        position: relative;
+    }
 }
