@@ -1,389 +1,99 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
 body {
-        background-color: #6d757d;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #6d757d;
+    overflow-x: hidden;
 }
 
-.container {
-    max-width: 1920px;
+#cabecalho {
+    background-image: url(img/background.png);
+    background-size: 100%;
+}
+
+#cabecalho .nav-link,
+#cabecalho .nav-link:hover {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#barra-lateral .nav-link,
+#barra-lateral .nav-link:hover {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.nav-item i {
+    color: #fff;
+}
+
+#barra-lateral {
+    position: fixed;
+    max-width: 100%;
+    height: 100%;
+    background-image: url(img/background.png);
+    background-size: 100%;
+}
+
+#barra-lateral img {
+    max-width: 75%;
+}
+
+.menu-navegacao {
     width: 100%;
 }
 
-.barra-lateral {
-    max-width: 480px;
-    width: 480px;
-    height: 1080px;
-    background-image: url(./images/background.png);
-    background-size: 480px;
-    display: block;
-    text-align: center;
-    position: fixed;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.logo img {
-    max-width: 400px;
-}
-
-.menu a {
-    display: block;
-    text-decoration: none;
-    font-size: 24px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 24px;
-}
-
-.contato {
-    margin-top: 320px;
-    display: flex;
-    width: 480px;
-    align-items: center;
-    margin-left: 8px;
-    justify-content: center;
-}
-
-.contato a {
-    margin-left: 16px;
-    margin-right: 36px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.social a {
-    margin-left: 0px;
-    margin-right: 0;
-}
-
-.social img {
-    width: 80px;
-}
-
-.rodape p {
-    font-size: 16px;
-    font-weight: normal;
-    text-transform: none;
-}
-
-.conteudo {
+#principal {
     max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    margin-left: 480px;
+    margin-left: 400px;
+    font-size: 20px;
 }
 
-.conteudo a {
-    max-width: 560px;
-    max-height: 420px;
-    margin-bottom: 48px;
-    margin-left: 48px;
+#principal h1 {
+    font-size: 24px;
 }
 
-.conteudo img {
-    max-width: 560px;
-    max-height: 420px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    border-radius: 5%;
-    margin-left: 48px;
+.img-thumbnail:hover {
+    border: 2px solid #6d757d;
 }
 
-.conteudo a:hover {
-    border: 2px solid transparent;
-}
-
-.release {
-    display: block;
-}
-
-.release h1 {
-    margin-top: 32px;
-    text-align: center;
-}
-
-.release p {
-    margin: 18px;
-    font-size: 16px;
-}
-
-.fale-conosco {
-    display: block;
-    padding-top: 48px;
-}
-
-form input,
-form textarea,
-form button {
-    display: block;
-    margin-left: 180px;
-    width: 360px;
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-form textarea {
-    resize: none;
-    height: 180px;
-}
-
-.fale-conosco h1 {
-    text-align: center;
-    margin-bottom: 48px;
-}
-
-form button {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
+.btn {
     background-color: #fff;
     color: #000;
 }
 
-input:focus, textarea:focus {
-    outline-color: #000;
+.btn:hover {
+    background-color: #000;
+    color: #fff;
 }
 
-@media screen and (max-width: 767px) {
-    .container {
-        width: 100%;
-    }
+#rodape {
+    margin-left: 400px;
+    color: #fff;
+}
 
-    .barra-lateral {
-        top: 0;
-        width: 480px;
-        height: 204px;
-        background-image: url(./images/background.png);
-        background-size: 480px;
-    }
+#rodape-fixo {
+    margin-left: 400px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
 
-    .logo {
-        display: flex;
-        width: 100%;
-    }
-
-    .logo img {
+@media (max-width: 767px) {
+    #cabecalho img {
         max-width: 160px;
-        text-align: center;
     }
 
-    .menu {
-        max-width: 120px;
-        margin-left: 24px;
-    }
-
-    .menu a {
-        font-size: 16px;
-        padding: 8px;
-    }
-
-    .contato {
-        display: block;
-        margin-top: -160px;
-        margin-left: 56px;
-    }
-
-    .contato a {
-        font-size: 12px;
-    }
-
-    .social {
-        margin-top: 16px;
-        margin-left: -16px;
-    }
-
-    .social img {
-        width: 72px;
-    }
-
-    .rodape {
-        margin-left: 96px;
-        margin-top: 36px;
-        text-align: center;
-    }
-
-    .rodape p {
-        font-size: 8px;
-    }
-
-    .conteudo {
-        max-width: 480px;
-        width: 480px;
-        margin-top: 204px;
-        max-width: 100%;
-        display: block;
-        margin-left: 0;
-    }
-    
-    .conteudo a {
-        display: block;
-        width: 100%;
-        max-width: 90%;
-        max-height: 90%;
-        margin-bottom: 8px;
-        text-align: center;
-        padding: 0;
-        margin-left: 8px;
-    }
-
-    .conteudo img {
-        width: 100%;
-        max-width: 90%;
-        max-height: 90%;
-        margin-top: 24px;
-        margin-bottom: 8px;
-        border-radius: 5%;
-        margin-left: 20px;
-    }
-
-    .release h1 {
-        margin-top: 32px;
-        text-align: center;
-        font-size: .75em;
-    }
-    
-    .release p {
-        margin: 18px;
-        font-size: .75em;
-    }
-
-    form input,
-    form textarea,
-    form button {
-        max-width: 360px;
-        margin-left: 24px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-    .container {
-        max-width: 900px;
-        width: 100%;
-    }
-    
-    .barra-lateral {
-        max-width: 280px;
-        width: 100%;
-        height: 1180px;
-    }
-    
-    .logo img {
-        max-width: 240px;
-    }
-
-    .contato {
-        margin-top: 560px;
-        display: block;
-        width: 280px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .social {
-        margin-top: 16px;
-        margin-left: -20px;
-    }
-
-    .social img {
-        width: 96px;
-    }
-
-    .conteudo {
-        max-width: 100%;
-        display: block;
-        margin-left: 0;
-    }
-    
-    .conteudo a {
-        display: block;
-        width: 100%;
-        max-width: 90%;
-        max-height: 90%;
-        margin-bottom: 8px;
-        text-align: center;
-        padding: 0;
-        margin-left: 8px;
-    }
-
-    .conteudo img {
-        width: 100%;
-        max-width: 90%;
-        max-height: 90%;
-        margin-top: 24px;
-        margin-bottom: 8px;
-        border-radius: 5%;
-        margin-left: 20px;
-    }
-
-    .release h1 {
-        margin-top: 32px;
-        text-align: center;
-        font-size: .75em;
-    }
-    
-    .release p {
-        margin: 18px;
-        font-size: .75em;
-    }
-
-    .conteudo {
-        max-width: 100%;
-        display: block;
-        margin-left: 300px;
-    }
-    
-    .conteudo a {
-        max-width: 400px;
-        max-height: 300px;
-        margin-bottom: 48px;
-    }
-    
-    .conteudo img {
-        max-width: 400px;
-        max-height: 300px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-        border-radius: 5%;
-        margin-left: 48px;
-    }
-    
-    .conteudo a:hover {
-        border: 2px solid transparent;
-    }
-    
-    .release {
+    .dropdown {
         display: block;
     }
-    
-    .release h1 {
-        margin-top: 32px;
-        text-align: center;
-    }
-    
-    .release p {
-        margin: 18px;
-        font-size: 16px;
-    }
 
-    form input,
-    form textarea,
-    form button {
-        max-width: 360px;
-        margin-left: 80px;
+    #barra-lateral {
+        display: none;
     }
 }
