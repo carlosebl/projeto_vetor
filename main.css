@@ -102,6 +102,10 @@ body {
         width: 95%;
     }
 
+    #principal img {
+        max-width: 90%;
+    }
+
     #rodape {
         margin-left: .5em;
     }
@@ -138,4 +142,16 @@ body {
         margin-left: 2.5em;
         position: relative;
     }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    #principal {
+        margin-left: 280px;
+        width: 80%;
+    }
+
+    #barra-lateral .nav-link,
+    #barra-lateral .nav-link:hover {
+    font-size: 20px;
+}
 }
