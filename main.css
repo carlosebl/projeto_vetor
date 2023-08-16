@@ -108,10 +108,12 @@ body {
 
     #rodape {
         margin-left: .5em;
+        color: #F77B3D;
     }
 
     #rodape-fixo {
         margin-left: .5em;
+        color: #F77B3D;
         position: relative;
     }
 }
