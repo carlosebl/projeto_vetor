@@ -81,6 +81,7 @@ body {
 }
 
 #rodape-fixo {
+    width: 100%;
     margin-left: 400px;
     color: #fff;
     position: absolute;
