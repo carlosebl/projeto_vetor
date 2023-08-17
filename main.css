@@ -28,7 +28,9 @@ body {
     background-color: #fff;
 }
 
-.nav-item i {
+.nav-item i,
+#rodape i,
+#rodape-fixo i {
     color: #fff;
 }
 
@@ -74,14 +76,16 @@ body {
 
 #rodape {
     margin-left: 400px;
-    color: #000;
+    color: #fff;
+    font-size: 12px;
 }
 
 #rodape-fixo {
     margin-left: 400px;
-    color: #000;
+    color: #fff;
     position: absolute;
     bottom: 0;
+    font-size: 12px;
 }
 
 @media (max-width: 767px) {
@@ -108,11 +112,13 @@ body {
 
     #rodape {
         margin-left: .5em;
+        font-size: 8px;
     }
 
     #rodape-fixo {
         margin-left: .5em;
         position: relative;
+        font-size: 8px;
     }
 }
 
