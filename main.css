@@ -160,5 +160,11 @@ body {
     #barra-lateral .nav-link,
     #barra-lateral .nav-link:hover {
     font-size: 20px;
-}
+    }
+
+    #rodape,
+    #rodape-fixo {
+        margin-left: 240px;
+        position: relative;
+    }
 }
