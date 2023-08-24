@@ -115,12 +115,6 @@ body {
         margin-left: .5em;
         font-size: 8px;
     }
-
-    #rodape-fixo {
-        margin-left: .5em;
-        position: relative;
-        font-size: 8px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -144,11 +138,6 @@ body {
     #rodape {
         margin-left: 2.5em;
     }
-
-    #rodape-fixo {
-        margin-left: 2.5em;
-        position: relative;
-    }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
@@ -162,8 +151,7 @@ body {
     font-size: 20px;
     }
 
-    #rodape,
-    #rodape-fixo {
+    #rodape {
         margin-left: 240px;
         position: relative;
     }
